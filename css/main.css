@@ -1,0 +1,517 @@
+/*
+1、样式都通过id去限定
+2、尽可能使用直接子代
+*/
+
+/*bootstrap扩展*/
+.btn-register-jerome {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-register-jerome:hover,
+.btn-register-jerome:focus,
+.btn-register-jerome:active,
+.btn-register-jerome.active,
+.open .dropdown-toggle.btn-register-jerome {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-register-jerome:active,
+.btn-register-jerome.active,
+.open .dropdown-toggle.btn-register-jerome {
+    background-image: none;
+}
+
+.btn-register-jerome.disabled,
+.btn-register-jerome[disabled],
+fieldset[disabled] .btn-register-jerome,
+.btn-register-jerome.disabled:hover,
+.btn-register-jerome[disabled]:hover,
+fieldset[disabled] .btn-register-jerome:hover,
+.btn-register-jerome.disabled:focus,
+.btn-register-jerome[disabled]:focus,
+fieldset[disabled] .btn-register-jerome:focus,
+.btn-register-jerome.disabled:active,
+.btn-register-jerome[disabled]:active,
+fieldset[disabled] .btn-register-jerome:active,
+.btn-register-jerome.disabled.active,
+.btn-register-jerome[disabled].active,
+fieldset[disabled] .btn-register-jerome.active {
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-register-jerome .badge {
+    color: #E92322;
+    background-color: #ffffff;
+}
+.btn-register-jerome {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+/*navbar-defalut修改*/
+.navbar-default-jerome {
+    background-color: #fff;
+    border-color: #f5f5f5;
+    margin-bottom: 0;
+}
+.navbar-default-jerome .navbar-brand {
+    color: #777;
+    height: 80px;
+}
+.navbar-default-jerome .navbar-brand:hover,
+.navbar-default-jerome .navbar-brand:focus {
+    color: #5e5e5e;
+    /* background-color: #fff; */
+}
+.navbar-default-jerome .navbar-text {
+    color: #777;
+}
+.navbar-default-jerome .navbar-nav > li > a {
+    color: #777;
+    line-height: 48px;
+    font-size: 16px;
+}
+.navbar-default-jerome .navbar-nav > li > a:hover,
+.navbar-default-jerome .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid #e92322;
+}
+.navbar-default-jerome .navbar-nav > .active > a,
+.navbar-default-jerome .navbar-nav > .active > a:hover,
+.navbar-default-jerome .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border-bottom: 2px solid #e92322;
+}
+.navbar-default-jerome .navbar-nav > .disabled > a,
+.navbar-default-jerome .navbar-nav > .disabled > a:hover,
+.navbar-default-jerome .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-default-jerome .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.navbar-default-jerome .navbar-toggle:hover,
+.navbar-default-jerome .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-default-jerome .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-default-jerome .navbar-collapse,
+.navbar-default-jerome .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-default-jerome .navbar-nav > .open > a,
+.navbar-default-jerome .navbar-nav > .open > a:hover,
+.navbar-default-jerome .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default-jerome .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-default-jerome .navbar-link {
+    color: #777;
+}
+.navbar-default-jerome .navbar-link:hover {
+    color: #333;
+}
+.navbar-default-jerome .btn-link {
+    color: #777;
+}
+.navbar-default-jerome .btn-link:hover,
+.navbar-default-jerome .btn-link:focus {
+    color: #333;
+}
+.navbar-default-jerome .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default-jerome .btn-link:hover,
+.navbar-default-jerome .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default-jerome .btn-link:focus {
+    color: #ccc;
+}
+
+
+/**
+ * pannel修改
+ */
+
+
+.panel-default-jerome {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.panel-default-jerome.actived {
+    background-color: #e92322;
+    color: #fff;
+}
+
+.panel-default-jerome.actived::before {
+    /* content: "\e915"; */
+    font-family: itcast;
+    font-size: 50px;
+    position: absolute;
+    top: -11px;
+    left: 15px;
+}
+
+.panel-default-jerome.disabled {
+    background-color: #e0e0e0;
+}
+
+.panel-default-jerome > .panel-heading {
+    float: right;
+    width: 120px;
+    padding: 45px 0;
+    height: 150px;
+    border-left: 1px dashed #c0c0c0;
+    text-align: center;
+    position: relative;
+}
+
+
+.panel-default-jerome > .panel-heading::before,
+.panel-default-jerome > .panel-heading::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    position: absolute;
+}
+
+.panel-default-jerome > .panel-heading::before {
+    top: -8px;
+    left: -8px;
+}
+
+.panel-default-jerome > .panel-heading::after {
+    bottom: -8px;
+    left: -8px;
+    box-shadow: 0 2px 1px #ccc inset;
+}
+
+.panel-default-jerome p {
+    margin-bottom: 0;
+}
+
+.panel-default-jerome > .panel-heading > p > strong {
+    font-size: 30px;
+}
+
+.panel-default-jerome > .panel-body {
+    margin-right: 120px;
+    height: 150px;
+}
+
+.panel-default-jerome > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+
+.panel-default-jerome > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+
+
+
+
+
+
+/*公共样式*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+/*
+ *字体图标，format解析字体图标的格式
+ */
+@font-face {
+    font-family: "weijinsuo";
+    src:url("../font/MiFie-Web-Font.eot") format('embedded-opentype'),
+    url("../font/MiFie-Web-Font.svg") format('svg'),
+    url("../font/MiFie-Web-Font.ttf") format('truetype'),
+    url("../font/MiFie-Web-Font.woff") format('woff');
+
+}
+
+[class^="icon-"],
+[class*=" icon-"]{
+    font-family: "weijinsuo";
+    font-style: normal;
+}
+
+.icon-mobilephone::before {
+    content: "\e908";
+    font-size: 13px;
+}
+
+.icon-telephone::before {
+    content: "\e909";
+    font-size: 15px;
+}
+
+.icon-logo::before {
+    content: "\e93e";
+}
+
+.icon-icon::before {
+    content: "\e920";
+}
+
+/*头部区域*/
+
+#header{
+   
+}
+
+#header > .topbar{
+    height: 40px;
+    border-bottom: 1px solid #c0c0c0 ;
+    line-height: 40px;
+
+}
+
+#header > .topbar > .container >.row >div{
+    height: 40px;
+    font-size: 12px;
+    color: #888;
+
+}
+
+#header > .topbar > .container >.row >div+div{
+    border-left: 1px solid #c0c0c0 ;
+    line-height: 40px;
+
+
+}
+
+
+#header .mobile-link{
+font-size: 12px;
+color: #888;
+
+}
+
+#header .mobile-link>img{
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 26px;
+    z-index: 1001;
+}
+
+#header .mobile-link:hover{
+     text-decoration:none;
+ }
+
+
+
+#header .mobile-link:hover >img{
+    display: block;
+}
+
+
+#header .icon-icon{
+
+font-size: 50px;
+color: #F54F65;
+line-height: 50px;
+vertical-align: middle;
+}
+
+#header .icon-logo{
+
+font-size: 32px;
+color: #333;
+line-height: 50px;
+vertical-align: middle;
+}
+
+
+
+/**
+ *通栏banner
+*/
+
+
+#main_ad{}
+
+#main_ad > .carousel-inner >.item{
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*当屏幕宽度大于768时，才banner图才使用背景图片，height才有410px，小图的话用的是img标签*/
+
+@media (min-width: 768px) {
+    /*背景图片内，元素没有内容，撑开盒子加高度*/
+    #main_ad > .carousel-inner >.item{
+        height: 410px;
+
+    }
+}
+/*小图的话撑满整个盒子，防止小图太小*/
+#main_ad > .carousel-inner >.item >img {
+    width: 100%;
+}
+
+
+/**
+ *  特色介绍模块
+ */
+#feature{
+    padding: 50px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.icon-uniE907:before {
+    content: "\e907";
+}
+
+#feature i{
+      font-size: 32px;
+  }
+
+#feature a{
+    text-decoration: none;
+    color: #333;
+}
+
+#feature a:hover{
+    color: #e92322;
+}
+
+#feature > .container > .row > div{
+    margin-bottom: 20px;
+}
+
+/**
+ *  立即预约模块
+ */
+
+#order{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px 0;
+}
+
+
+#order > .container > p {
+    /*line-height: 50px;*/
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#order > .container > .pull-left > span,
+#order > .container > .pull-left > a {
+    color: #e92322;
+}
+
+#order > .container > .pull-left > a {
+    border-bottom: 1px dashed #e92322;
+}
+
+#order > .container > .pull-left > a:hover {
+    text-decoration: none;
+}
+
+
+.icon-uniE906:before {
+    content: "\e906";
+}
+
+.icon-uniE905:before {
+    content: "\e905";
+}
+
+/**
+ * 产品列表
+ */
+
+#products{
+    background-color: #f1f1f1;
+    padding: 40px 0;
+
+}
+
+#products >.container >.nav-tabs{
+
+padding-left: 20px;
+}
+
+#products >.container >.nav-tabs >li{
+
+
+}
+
+#products >.container >.nav-tabs >li >a{
+
+font-size: 16px;
+
+color: #333;
+}
+#products >.container >.nav-tabs >li >a:hover{
+
+border-color: transparent;
+
+background-color: transparent;
+
+color: #000;
+}
+#products >.container >.nav-tabs >li.active{
+
+
+}
+#products >.container >.nav-tabs >li.active >a{
+
+background-color: transparent;
+
+border: 0;
+
+border-bottom: 4px solid #e92322;
+}
+
+#products >.container >.tab-content{
+    padding: 20px 0;
+}
+
+#products > .container > .tab-content p {
+    margin-bottom: 0;
+}
+
