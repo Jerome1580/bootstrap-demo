@@ -7,7 +7,6 @@ $(function(){
     function resize(){
         var windowWidth = $(window).width();
         var isSmallScreen = windowWidth < 768;
-        console.log(isSmallScreen)
 
 
 
@@ -32,5 +31,33 @@ $(function(){
     }
 
     $(window).on("resize",resize).trigger('resize');
+
+
+
+    //提示工具条初始化
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+    //计算标签的宽度
+    (function(){
+        var ulTab = $('.nav-tabs');
+        var sumwidth = 70 ; //因为本身里面的ul本身有一定距离的缩进
+
+
+        ulTab.children().each(function (i, element) {
+            sumwidth += $(element).width();
+        });
+
+
+
+        //如果ul的宽度大于当前屏幕的宽度，则出现滚动条
+        if(sumwidth > $(window).width()){
+            ulTab.css('width',sumwidth)
+                .parent().css('overflow-x','scroll');
+        }
+
+    })()
+
+
 
 })

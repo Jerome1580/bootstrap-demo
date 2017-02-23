@@ -1,9 +1,9 @@
 /*
-1、样式都通过id去限定
-2、尽可能使用直接子代
+1ã€æ ·å¼éƒ½é€šè¿‡idåŽ»é™å®š
+2ã€å°½å¯èƒ½ä½¿ç”¨ç›´æŽ¥å­ä»£
 */
 
-/*bootstrap扩展*/
+/*bootstrapæ‰©å±•*/
 .btn-register-jerome {
     color: #ffffff;
     background-color: #E92322;
@@ -55,7 +55,7 @@ fieldset[disabled] .btn-register-jerome.active {
     border-color: #DB3B43;
 }
 
-/*navbar-defalut修改*/
+/*navbar-defalutä¿®æ”¹*/
 .navbar-default-jerome {
     background-color: #fff;
     border-color: #f5f5f5;
@@ -163,7 +163,7 @@ fieldset[disabled] .navbar-default-jerome .btn-link:focus {
 
 
 /**
- * pannel修改
+ * pannelä¿®æ”¹
  */
 
 
@@ -231,6 +231,13 @@ fieldset[disabled] .navbar-default-jerome .btn-link:focus {
     font-size: 30px;
 }
 
+.panel-default-jerome > .panel-heading > .tooltips{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 24px;
+}
+
 .panel-default-jerome > .panel-body {
     margin-right: 120px;
     height: 150px;
@@ -241,8 +248,61 @@ fieldset[disabled] .navbar-default-jerome .btn-link:focus {
 }
 
 .panel-default-jerome > .panel-heading .badge {
-    color: #f5f5f5;
-    background-color: #333;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 0;
+    padding-left: 3px;
+}
+.panel-default-jerome > .panel-heading .badge-one {
+    color: #E92322;
+    border-color: #E92322;
+
+}
+
+.panel-default-jerome > .panel-heading .badge-two {
+    color: #399;
+    border-color: #399;
+
+}
+
+
+/**
+ * 产品列表
+ */
+#products {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+
+
+#products > .container > .ul-wrapper >.nav-tabs {
+    padding-left: 20px;
+}
+
+#products > .container > .ul-wrapper >.nav-tabs > li {}
+
+#products > .container > .ul-wrapper >.nav-tabs > li > a {
+    font-size: 16px;
+    color: #333;
+}
+
+#products > .container > .ul-wrapper >.nav-tabs > li > a:hover {
+    border-color: transparent;
+    background-color: transparent;
+    color: #000;
+}
+
+#products > .container > .ul-wrapper >.nav-tabs > li.active {}
+
+#products > .container > .ul-wrapper >.nav-tabs > li.active > a {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid #e92322;
 }
 
 
@@ -250,14 +310,14 @@ fieldset[disabled] .navbar-default-jerome .btn-link:focus {
 
 
 
-/*公共样式*/
+/*å…¬å…±æ ·å¼*/
 
 body {
     font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
 
 /*
- *字体图标，format解析字体图标的格式
+ *å­—ä½“å›¾æ ‡ï¼Œformatè§£æžå­—ä½“å›¾æ ‡çš„æ ¼å¼
  */
 @font-face {
     font-family: "weijinsuo";
@@ -292,7 +352,7 @@ body {
     content: "\e920";
 }
 
-/*头部区域*/
+/*å¤´éƒ¨åŒºåŸŸ*/
 
 #header{
    
@@ -365,7 +425,7 @@ vertical-align: middle;
 
 
 /**
- *通栏banner
+ *é€šæ banner
 */
 
 
@@ -378,23 +438,23 @@ vertical-align: middle;
     background-size: cover;
 }
 
-/*当屏幕宽度大于768时，才banner图才使用背景图片，height才有410px，小图的话用的是img标签*/
+/*å½“å±å¹•å®½åº¦å¤§äºŽ768æ—¶ï¼Œæ‰bannerå›¾æ‰ä½¿ç”¨èƒŒæ™¯å›¾ç‰‡ï¼Œheightæ‰æœ‰410pxï¼Œå°å›¾çš„è¯ç”¨çš„æ˜¯imgæ ‡ç­¾*/
 
 @media (min-width: 768px) {
-    /*背景图片内，元素没有内容，撑开盒子加高度*/
+    /*èƒŒæ™¯å›¾ç‰‡å†…ï¼Œå…ƒç´ æ²¡æœ‰å†…å®¹ï¼Œæ’‘å¼€ç›’å­åŠ é«˜åº¦*/
     #main_ad > .carousel-inner >.item{
         height: 410px;
 
     }
 }
-/*小图的话撑满整个盒子，防止小图太小*/
+/*å°å›¾çš„è¯æ’‘æ»¡æ•´ä¸ªç›’å­ï¼Œé˜²æ­¢å°å›¾å¤ªå°*/
 #main_ad > .carousel-inner >.item >img {
     width: 100%;
 }
 
 
 /**
- *  特色介绍模块
+ *  ç‰¹è‰²ä»‹ç»æ¨¡å—
  */
 #feature{
     padding: 50px;
@@ -423,7 +483,7 @@ vertical-align: middle;
 }
 
 /**
- *  立即预约模块
+ *  ç«‹å³é¢„çº¦æ¨¡å—
  */
 
 #order{
@@ -461,7 +521,7 @@ vertical-align: middle;
 }
 
 /**
- * 产品列表
+ * äº§å“åˆ—è¡¨
  */
 
 #products{
