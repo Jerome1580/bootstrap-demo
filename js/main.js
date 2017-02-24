@@ -56,7 +56,44 @@ $(function(){
                 .parent().css('overflow-x','scroll');
         }
 
-    })()
+    })();
+
+
+    //新闻列表页，点击切换文字
+    var _newTitle = $('.news-title');
+    $('.nav-pills').on('click','a', function () {
+        var _this = $(this);
+        var title = _this.data('title');
+        _newTitle.text(title);
+    });
+
+
+    //给轮播图注册手指触摸事件，向左滑放下一张，向右滑动放上一张图片
+    var _carousels = $('.carousel'); //给页面上的所有轮播图都注册事件
+    var statX = 0,endX = 0; //记录开始,结束坐标
+
+    var offset = 50 ;  //设置阈值，避免手指小幅度移动触发事件
+
+
+    _carousels.on('touchstart',function(e){
+         statX =  e.originalEvent.touches[0].clientX;
+
+
+    }).on('touchmove', function (e) {
+        //这个地方不能使用touchend来获取endX，因为离开的瞬间没有值
+        //用touchmove时刻获取值，变量覆盖的思路获取最后离开的endX
+        endX =  e.originalEvent.touches[0].clientX;
+
+
+        var distance = Math.abs(statX - endX );   //判断手指滑动阈值
+        if(distance > offset){
+             //bootstrap提供的方法 .carousel('prev')实现下一张
+            //用$(this),避免网页有多轮播图
+            $(this).carousel(statX > endX?'next':'prev');
+
+        }
+
+    })
 
 
 
