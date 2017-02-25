@@ -26,8 +26,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.583501">
-                  <caret line="489" column="53" selection-start-line="489" selection-start-column="53" selection-end-line="489" selection-end-column="53" />
+                <state vertical-scroll-proportion="19.637827">
+                  <caret line="488" column="53" selection-start-line="488" selection-start-column="53" selection-end-line="488" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -47,7 +47,17 @@
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="619" column="23" selection-start-line="619" selection-start-column="23" selection-end-line="619" selection-end-column="23" />
+                  <caret line="653" column="0" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+            <entry file="file://F:/BaiduYunDownload/2016传智播客web前端/就业班/09 移动web开发/09 移动web开发/09 移动web开发/03-移动web开发_03/资料/code/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.268293">
+                  <caret line="233" column="7" selection-start-line="233" selection-start-column="2" selection-end-line="233" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -80,16 +90,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://F:/BaiduYunDownload/2016传智播客web前端/就业班/09 移动web开发/09 移动web开发/09 移动web开发/03-移动web开发_03/资料/code/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="5.3333335">
-                  <caret line="390" column="0" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -98,7 +98,7 @@
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.13669065">
-                  <caret line="278" column="3" selection-start-line="278" selection-start-column="3" selection-end-line="278" selection-end-column="3" />
+                  <caret line="277" column="3" selection-start-line="277" selection-start-column="3" selection-end-line="277" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -123,8 +123,9 @@
       <list>
         <option value="$PROJECT_DIR$/ceshi.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="F:/BaiduYunDownload/2016传智播客web前端/就业班/09 移动web开发/09 移动web开发/09 移动web开发/03-移动web开发_03/资料/code/css/main.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -404,14 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/BaiduYunDownload/2016传智播客web前端/就业班/09 移动web开发/09 移动web开发/09 移动web开发/03-移动web开发_03/资料/code/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.3333335">
-          <caret line="390" column="0" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/BaiduYunDownload/2016传智播客web前端/就业班/09 移动web开发/09 移动web开发/09 移动web开发/03-移动web开发_03/资料/code/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8275862">
@@ -443,18 +436,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/BaiduYunDownload/2016传智播客web前端/就业班/09 移动web开发/09 移动web开发/09 移动web开发/03-移动web开发_03/资料/code/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.268293">
+          <caret line="233" column="7" selection-start-line="233" selection-start-column="2" selection-end-line="233" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="619" column="23" selection-start-line="619" selection-start-column="23" selection-end-line="619" selection-end-column="23" />
+          <caret line="653" column="0" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.583501">
-          <caret line="489" column="53" selection-start-line="489" selection-start-column="53" selection-end-line="489" selection-end-column="53" />
+        <state vertical-scroll-proportion="19.637827">
+          <caret line="488" column="53" selection-start-line="488" selection-start-column="53" selection-end-line="488" selection-end-column="53" />
           <folding />
         </state>
       </provider>

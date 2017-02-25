@@ -1,9 +1,9 @@
 /*
-1ã€æ ·å¼éƒ½é€šè¿‡idåŽ»é™å®š
-2ã€å°½å¯èƒ½ä½¿ç”¨ç›´æŽ¥å­ä»£
+ * 1. 样式都通过ID去限定
+ * 2. 尽可能多使用直接子代选择器
 */
 
-/*bootstrapæ‰©å±•*/
+/*bootstrap扩展*/
 .btn-register-jerome {
     color: #ffffff;
     background-color: #E92322;
@@ -55,7 +55,7 @@ fieldset[disabled] .btn-register-jerome.active {
     border-color: #DB3B43;
 }
 
-/*navbar-defalutä¿®æ”¹*/
+/*navbar-defalut扩展*/
 .navbar-default-jerome {
     background-color: #fff;
     border-color: #f5f5f5;
@@ -165,7 +165,7 @@ fieldset[disabled] .navbar-default-jerome .btn-link:focus {
 
 
 /**
- * pannelä¿®æ”¹
+ * panne扩展
  */
 
 
@@ -312,14 +312,14 @@ fieldset[disabled] .navbar-default-jerome .btn-link:focus {
 
 
 
-/*å…¬å…±æ ·å¼*/
+/*公共样式*/
 
 body {
     font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
 
 /*
- *å­—ä½“å›¾æ ‡ï¼Œformatè§£æžå­—ä½“å›¾æ ‡çš„æ ¼å¼
+ *字体图标
  */
 @font-face {
     font-family: "weijinsuo";
@@ -354,7 +354,7 @@ body {
     content: "\e920";
 }
 
-/*å¤´éƒ¨åŒºåŸŸ*/
+/* 头部区域 */
 
 #header{
    
@@ -427,7 +427,7 @@ vertical-align: middle;
 
 
 /**
- *é€šæ banner
+* 通栏广告轮播
 */
 
 
@@ -440,23 +440,23 @@ vertical-align: middle;
     background-size: cover;
 }
 
-/*å½“å±å¹•å®½åº¦å¤§äºŽ768æ—¶ï¼Œæ‰bannerå›¾æ‰ä½¿ç”¨èƒŒæ™¯å›¾ç‰‡ï¼Œheightæ‰æœ‰410pxï¼Œå°å›¾çš„è¯ç”¨çš„æ˜¯imgæ ‡ç­¾*/
+/* 当屏幕宽度大于768时，将元素高度设置为410px */
 
 @media (min-width: 768px) {
-    /*èƒŒæ™¯å›¾ç‰‡å†…ï¼Œå…ƒç´ æ²¡æœ‰å†…å®¹ï¼Œæ’‘å¼€ç›’å­åŠ é«˜åº¦*/
+    /*大屏幕时用图片作背景，没有内容，所以加上高度*/
     #main_ad > .carousel-inner >.item{
         height: 410px;
 
     }
 }
-/*å°å›¾çš„è¯æ’‘æ»¡æ•´ä¸ªç›’å­ï¼Œé˜²æ­¢å°å›¾å¤ªå°*/
+/*小屏幕时轮播图用img，避免小图没有占满屏幕*/
 #main_ad > .carousel-inner >.item >img {
     width: 100%;
 }
 
 
 /**
- *  ç‰¹è‰²ä»‹ç»æ¨¡å—
+ *  网站特色
  */
 #feature{
     padding: 50px;
@@ -485,7 +485,7 @@ vertical-align: middle;
 }
 
 /**
- *  ç«‹å³é¢„çº¦æ¨¡å—
+ *   立即预约
  */
 
 #order{
@@ -523,7 +523,7 @@ vertical-align: middle;
 }
 
 /**
- * äº§å“åˆ—è¡¨
+ *产品列表
  */
 
 #products{
@@ -646,7 +646,7 @@ border-bottom: 4px solid #e92322;
 @media (max-width: 768px) {
     #news .nav-stacked > li {
         float: left;
-        margin: 20px;
+        margin: 18px;
     }
 }
 
